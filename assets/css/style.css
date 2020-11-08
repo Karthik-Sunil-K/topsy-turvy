@@ -21,10 +21,10 @@ a {
   color:white
 }
 
-a:hover {
+/* a:hover {
   color: #51cdbe;
   text-decoration: none;
-}
+} */
 
 h1, h2, h3, h4, h5, h6 {
   font-family: Verdana, Geneva, Tahoma, sans-serif;
@@ -110,10 +110,10 @@ h1, h2, h3, h4, h5, h6 {
   transition: all 0.4s;
 }
 
-.back-to-top i:hover {
+/* .back-to-top i:hover {
   background: #3dc8b7;
   color: #fff;
-}
+} */
 
 /*--------------------------------------------------------------
 # Header
@@ -215,11 +215,11 @@ h1, h2, h3, h4, h5, h6 {
   transition: 0.3s;
 }
 
-.nav-menu .drop-down:hover > ul {
+/* .nav-menu .drop-down:hover > ul {
   opacity: 1;
   top: 100%;
   visibility: visible;
-}
+} */
 
 .nav-menu .drop-down li {
   min-width: 180px;
@@ -234,9 +234,9 @@ h1, h2, h3, h4, h5, h6 {
   color: #222222;
 }
 
-.nav-menu .drop-down ul a:hover, .nav-menu .drop-down ul .active > a, .nav-menu .drop-down ul li:hover > a {
+/* .nav-menu .drop-down ul a:hover, .nav-menu .drop-down ul .active > a, .nav-menu .drop-down ul li:hover > a {
   color: #34b7a7;
-}
+} */
 
 .nav-menu .drop-down > a:after {
   content: "\ea99";
@@ -249,11 +249,11 @@ h1, h2, h3, h4, h5, h6 {
   left: calc(100% - 30px);
 }
 
-.nav-menu .drop-down .drop-down:hover > ul {
+/* .nav-menu .drop-down .drop-down:hover > ul {
   opacity: 1;
   top: 0;
   left: 100%;
-}
+} */
 
 .nav-menu .drop-down .drop-down > a {
   padding-right: 35px;
@@ -389,7 +389,8 @@ h1, h2, h3, h4, h5, h6 {
 # Header Social Links
 --------------------------------------------------------------*/
 .header-social-links {
-  padding-left: 20px;
+  padding-left: 90px;
+  size: 50px;
 }
 
 .header-social-links a {
@@ -401,9 +402,9 @@ h1, h2, h3, h4, h5, h6 {
   font-size: 16px;
 }
 
-.header-social-links a:hover {
+/* .header-social-links a:hover {
   color: #34b7a7;
-}
+} */
 
 @media (max-width: 992px) {
   .header-social-links {
@@ -575,10 +576,10 @@ section {
   color: #fff;
 }
 
-.cta .cta-btn:hover {
+/* .cta .cta-btn:hover {
   background: #34b7a7;
   border: 2px solid #34b7a7;
-}
+} */
 
 @media (max-width: 1024px) {
   .cta {
@@ -1145,7 +1146,7 @@ section {
 --------------------------------------------------------------*/
 .contact .info {
   width: 100%;
-  background: #fff;
+  background: black;
 }
 
 .contact .info i {
@@ -1154,7 +1155,7 @@ section {
   float: left;
   width: 44px;
   height: 44px;
-  background: #effbf9;
+  background: black;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -1182,13 +1183,13 @@ section {
 }
 
 .contact .info .email:hover i, .contact .info .address:hover i, .contact .info .phone:hover i {
-  background: #34b7a7;
-  color: #fff;
+  background: #444444;
+  color: black;
 }
 
 .contact .php-email-form {
   width: 100%;
-  background: #fff;
+  background: black;
 }
 
 .contact .php-email-form .form-group {
@@ -1205,7 +1206,7 @@ section {
 
 .contact .php-email-form .error-message {
   display: none;
-  color: #fff;
+  color: black;
   background: #ed3c0d;
   text-align: center;
   padding: 15px;
@@ -1214,8 +1215,8 @@ section {
 
 .contact .php-email-form .sent-message {
   display: none;
-  color: #fff;
-  background: #18d26e;
+  color: black;
+  background: #444444;
   text-align: center;
   padding: 15px;
   font-weight: 600;
@@ -1260,7 +1261,7 @@ section {
 }
 
 .contact .php-email-form button[type="submit"] {
-  background: #34b7a7;
+  background: #444444;
   border: 0;
   padding: 10px 30px 12px 30px;
   color: #fff;
@@ -1268,9 +1269,9 @@ section {
   border-radius: 50px;
 }
 
-.contact .php-email-form button[type="submit"]:hover {
+/* .contact .php-email-form button[type="submit"]:hover {
   background: #3dc8b7;
-}
+} */
 
 @-webkit-keyframes animate-loading {
   0% {
