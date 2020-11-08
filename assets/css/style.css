@@ -1297,3 +1297,10 @@ section {
 #footer .credits a {
   color: #34b7a7;
 }
+.bottom-left {
+  position: absolute;
+  bottom: 8px;
+  left: 16px;
+  color: white;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
