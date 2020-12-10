@@ -1,2 +1,2 @@
 # topsy-turvy
-# Gaming Website
+# Gaming Website IEEE Competition
